@@ -29,3 +29,5 @@ git checkout name; git revert name^^ revert online commit twice
 git cherry-pick, force to pick any branches and put them behind the current cursor
 git checkout master; git cherry-pick name1 name2 name3 etc.
 
+git rebase -i name
+-i means interactive, pops up an interactive dialog to check the action
