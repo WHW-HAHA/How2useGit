@@ -1,3 +1,4 @@
+Please visit the link https://learngitbranching.js.org/ to learn by exercises
 
 ## local Git
 
@@ -48,8 +49,12 @@ This will return you the description of closest tag, diatance and
 
 ## Remote Git/ Remote Git
 
-Git clone
-Git fetch 
+git clone
+
+git fetch 
+
+git pull = git fetch + git merge
+
 
 
 
