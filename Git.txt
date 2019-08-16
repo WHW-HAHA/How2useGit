@@ -16,3 +16,6 @@ git checkout name; git checkout Head^ == git checkout name^
 
 git chckout name~num
 for instance: git checkout name^^^ = git checkout HEAD~3 
+
+forced to move/ merge the check point and branch
+git branch -f name point 
