@@ -8,4 +8,8 @@ git merge new_branch_name, merge two branches
 
 git rebase branch_name, linearly sort the branches, start with branch_name
 
-the git head will moves and points to the branch or the check point, which is just being checked-out 
+git checkout branch_name/ check_point_name  
+the git head will moves and points to the branch or the check point, which is just being checked-out
+
+git checkout name^, will move the head to the parent node of name, alikely, ^^^ means three levels up
+git checkout name; git Head^ == git checkout name^
