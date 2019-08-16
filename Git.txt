@@ -36,6 +36,12 @@ git rebase -i name
 only sort the node behind the name
 
 git checkout name; git commit --amend
+
 overwrite the last submit of name
+
+git tag tag_name checkPoint_name
+
+
+
 
 
