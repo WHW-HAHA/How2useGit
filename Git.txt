@@ -28,7 +28,8 @@ git revert to revert online commit
 git checkout name; git revert name^^ revert online commit twice   
 
 git cherry-pick, force to pick any branches and put them behind the current cursor
-git checkout master; git cherry-pick name1 name2 name3 etc.
+git checkout master; git cherry-pick name1 name2 name3 etc, then the master branch also goes to the last cherry-pick point, in this case name3
+
 
 git rebase -i name
 -i means interactive, pops up an interactive dialog to check the action
@@ -36,4 +37,5 @@ only sort the node behind the name
 
 git checkout name; git commit --amend
 overwrite the last submit of name
+
 
