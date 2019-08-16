@@ -17,5 +17,11 @@ git checkout name; git checkout Head^ == git checkout name^
 git chckout name~num
 for instance: git checkout name^^^ = git checkout HEAD~3 
 
-forced to move/ merge the check point and branch
+forced to move the check point and branch
 git branch -f name point 
+
+git reset to reset the local commit 
+git checkout name; git reset name^^ reset local commit twice
+
+git revert to revert online commit
+git checkout name; git revert name^^ revert online commit twice   
