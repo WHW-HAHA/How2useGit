@@ -1,0 +1,10 @@
+git branch
+
+git commit
+
+git checkout branch_name, focus on the branch 
+
+git merge new_branch_name, merge two branches
+
+git rebase branch_name, linearly sort the branches, start with branch_name
+   
