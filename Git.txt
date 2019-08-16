@@ -12,4 +12,7 @@ git checkout branch_name/ check_point_name
 the git head will moves and points to the branch or the check point, which is just being checked-out
 
 git checkout name^, will move the head to the parent node of name, alikely, ^^^ means three levels up
-git checkout name; git Head^ == git checkout name^
+git checkout name; git checkout Head^ == git checkout name^
+
+git chckout name~num
+for instance: git checkout name^^^ = git checkout HEAD~3 
