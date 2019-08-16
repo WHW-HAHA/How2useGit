@@ -9,7 +9,6 @@ git merge new_branch_name, merge two branches
 git rebase name, linearly sort the branches, start with branch_name
 only rebase the nodes behind name
 
-
 git checkout branch_name/ check_point_name  
 the git head will moves and points to the branch or the check point, which is just being checked-out
 
@@ -34,3 +33,7 @@ git checkout master; git cherry-pick name1 name2 name3 etc.
 git rebase -i name
 -i means interactive, pops up an interactive dialog to check the action
 only sort the node behind the name
+
+git checkout name; git commit --amend
+overwrite the last submit of name
+
