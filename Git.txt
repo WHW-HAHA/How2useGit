@@ -55,6 +55,7 @@ to copy the remote repositery
 git fetch 
 git fetch will downloads all the remote commits, and update the origin/master* branch, but won't update the loacal master branch
 
+git pull
 git pull = git fetch + git merge
 
 
