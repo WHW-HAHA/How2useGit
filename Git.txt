@@ -58,6 +58,7 @@ git fetch will downloads all the remote commits, and update the origin/master* b
 git pull
 git pull = git fetch + git merge
 
+git push
 
 
 
