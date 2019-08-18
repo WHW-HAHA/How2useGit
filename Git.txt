@@ -50,9 +50,10 @@ This will return you the description of closest tag, diatance and
 ## Remote Git/ Remote Git
 
 git clone
-to copy the local repositery
+to copy the remote repositery
 
 git fetch 
+git fetch will downloads all the remote commits, and update the origin/master* branch, but won't update the loacal master branch
 
 git pull = git fetch + git merge
 
