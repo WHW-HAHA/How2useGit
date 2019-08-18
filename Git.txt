@@ -59,6 +59,8 @@ git pull
 git pull = git fetch + git merge
 
 git push
+usually, you should git pull or git fetch to download the new branch and push your commit in the latest branch
+
 
 
 
