@@ -50,6 +50,7 @@ This will return you the description of closest tag, diatance and
 ## Remote Git/ Remote Git
 
 git clone
+to copy the local repositery
 
 git fetch 
 
